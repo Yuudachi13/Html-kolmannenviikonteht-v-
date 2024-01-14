@@ -1,7 +1,9 @@
+
 html {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     height: 100%;
 }
+
 
 body {
     margin: 0;
@@ -13,7 +15,7 @@ a {
 }
 
 #banner {
-    background-image: url('../images/banner.png');
+    background-image: url('./images/banner.png');
     background-size: 100% auto;
     min-height: 273px;
     background-repeat: no-repeat;
@@ -27,14 +29,13 @@ a {
 }
 
 nav ul {
-list-style-type: none;
-
+    list-style-type: none;
 }
 
 nav li {
     display: inline-block;
     padding: 10px;
-    border: 1px solid rgb(247, 147, 30);
+    border: 1px solid rgb(247,147,30);
     border-radius: 5px;
 }
 
@@ -84,14 +85,14 @@ i {
 }
 
 @media screen and (max-width: 1200px) {
-    #banner {min-height: 150px;}
+    #banner {min-height: 150px;}    
 }
 
 @media screen and (max-width: 600px) {
-    #banner {min-height: 100px;}
+    #banner {min-height: 100px;}    
 }
 
 @media screen and (max-width: 375px) {
     #logo img {width: 300px;}
-    #banner {min-height: 60px;}
+    #banner {min-height: 60px;}    
 }
